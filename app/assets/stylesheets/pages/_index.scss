@@ -1,16 +1,35 @@
 @import "home";
 
+@media (min-width: 576px) {
+  .container {
+    width: 500px;
+  }
+}
+
 
 .container {
   width: 1900px;
+  display: grid;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .container img {
-  width: 400px;
-  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  min-width: 100px;
+  height: auto;
+}
 .button {
   text-decoration: none;
   background-color: #22A1EE;
@@ -19,6 +38,10 @@
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .button:hover {
