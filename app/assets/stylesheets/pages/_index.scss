@@ -1,35 +1,11 @@
 @import "home";
 
-@media (min-width: 576px) {
-  .container {
-    width: 500px;
-  }
-}
-
-
-.container {
-  width: 1900px;
-  display: grid;
-}
-
-.row {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.container img {
+.resp-img {
   margin-left: auto;
   margin-right: auto;
   display: block;
 }
 
-.responsive {
-  width: 100%;
-  height: auto;
-  max-width: 400px;
-  min-width: 100px;
-  height: auto;
-}
 .button {
   text-decoration: none;
   background-color: #22A1EE;
@@ -55,6 +31,18 @@
   font-weight: bolder;
 }
 
+.container {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.container-row {
+  margin-right: 30px !important;
+  margin-left: 30px !important;
+}
+
 .container h1 {
   padding-bottom: 20px;
   font-family: 'Prompt', sans-serif;
@@ -66,5 +54,3 @@
   font-family: 'Roboto', sans-serif;
   color: #194797;
 }
-
-
