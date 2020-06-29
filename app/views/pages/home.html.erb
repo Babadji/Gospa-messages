@@ -1,12 +1,11 @@
 <div class="container">
-  <div class="cat1">
+  <div class="col-12 content-div1 px-0 pt-1 py-ls-0">
     <h1>Qu'est-ce que la Gospa veut me dire aujourd'hui?</h1>
-
-    <%=  @message.description %>
-    <br>
-    <%= link_to "Découvrir un autre message", root_path %>
+    <p><%=  @message.description %></p>
+    <%= link_to "Découvrir un autre message", root_path, class: "button" %>
   </div>
 
-  <div class="cat2 image-bg">
+  <div class="col-12 content-div2 d-ls-flex flex-column justify-content-center home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dnzggrpqe/image/upload/v1593267468/zlykxtxlgwrz0nkelrwq_gaikas.webp)">
   </div>
+
 </div>

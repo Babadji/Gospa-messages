@@ -1,37 +1,86 @@
 @import "home";
 
-@media all and (max-width: 1920px) and (min-width: 520px), (min-width: 1151px) {
+@media screen {
   body {
-    background: white;
+    flex: 0 0 58.3%;
+    max-width: 58.3%;
+    max-height: 52.35rem;
+    background-color: white;
   }
 }
 
 .image-bg {
   background-color:white;
   background-image:url(https://res.cloudinary.com/dnzggrpqe/image/upload/v1593267468/zlykxtxlgwrz0nkelrwq_gaikas.webp);
-  height: 1080px;
   padding-right: 0px;
+  height: 100vh;
 }
 
 .container {
   display: flex;
-  padding-top: 30px;
-  padding-right: 0px;
-  padding-left: 20px;
-  margin: 0px !important;
   justify-content: space-between;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
-.cat1 {
-  width: 40%;
-  margin: 0px !important;
-  padding-left: 10px;
-  padding-right: 10px;
+.content-div1 {
+  padding-top: 60px !important;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
 
+}
+
+.button {
+  text-decoration: none;
+  background-color: #22A1EE;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: #FFD0A3;
+  color: #9B7E63;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bolder;
+}
+
+.content-div1 h1 {
+  padding-bottom: 20px;
+  font-family: 'Prompt', sans-serif;
+  color: #22A1EE;
+}
+
+.content-div1 p {
+  padding-bottom: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #194797;
 }
 
 .cat2 {
-  width: 60%;
-  margin: 0px !important;
+  width: 1800px;
 }
+
+.home-img {
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 5000px;
+}
+
 
