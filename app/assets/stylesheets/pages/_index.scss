@@ -1,7 +1,37 @@
 @import "home";
 
+@media all and (max-width: 1920px) and (min-width: 520px), (min-width: 1151px) {
+  body {
+    background: white;
+  }
+}
+
 .image-bg {
   background-color:white;
   background-image:url(https://res.cloudinary.com/dnzggrpqe/image/upload/v1593267468/zlykxtxlgwrz0nkelrwq_gaikas.webp);
+  height: 1080px;
+  padding-right: 0px;
+}
+
+.container {
+  display: flex;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-left: 20px;
+  margin: 0px !important;
+  justify-content: space-between;
+}
+
+.cat1 {
+  width: 40%;
+  margin: 0px !important;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.cat2 {
+  width: 60%;
+  margin: 0px !important;
 }
 

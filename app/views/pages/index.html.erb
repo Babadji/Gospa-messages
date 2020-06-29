@@ -1,13 +1,20 @@
 <div class="container">
+  <div class="cat1">
+    <h1>Qu'est-ce que la Gospa veut me dire aujourd'hui?</h1>
 
-  <div class="row">
+    <a><% @messages.each do |message| %>
+    <%= @messages.sample.first %>
+    <% end %>Lancer la recherche</a>
+  </div>
+
+  <div class="cat2 image-bg">
+  </div>
+</div>
+
+  <!-- <div class="row">
     <div class="col-12 col-lg-6">
       <div class="card bg-light">
-        <h1>Qu'est-ce que la Gospa veut me dire aujourd'hui?</h1>
 
-        <a><% messages.each do |message| %>
-        <%= message.sample.first %>
-        <% end %>Lancer la recherche</a>
       </div>
     </div>
 
@@ -17,7 +24,7 @@
     </div>
   </div>
 </div>
-
+ -->
 
 
 

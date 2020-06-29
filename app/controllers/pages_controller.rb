@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def index
-    @messages = Message.all
+  def home
+    @message = Message.all.sample
   end
 end
