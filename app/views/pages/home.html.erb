@@ -1,11 +1,19 @@
 <div class="container">
-  <div class="col-12 content-div1 px-0 pt-1 py-ls-0">
-    <h1>Qu'est-ce que la Gospa veut me dire aujourd'hui?</h1>
-    <p><%=  @message.description %></p>
-    <%= link_to "Découvrir un autre message", root_path, class: "button" %>
+  <div class="row justify-content-center">
+    <div class="col-12 col-lg-6">
+      <img src="https://res.cloudinary.com/dnzggrpqe/image/upload/v1593447062/GOSPA2_y9vtmy.png">
+    </div>
   </div>
 
-  <div class="col-12 content-div2 d-ls-flex flex-column justify-content-center home-img" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://res.cloudinary.com/dnzggrpqe/image/upload/v1593267468/zlykxtxlgwrz0nkelrwq_gaikas.webp)">
+  <div class="row row justify-content-center">
+    <div class="row col-sm-4">
+      <h1>Qu'est-ce que la Gospa veut me dire aujourd'hui?</h1>
+      <p><%=  @message.description %></p>
+      <%= link_to "Découvrir un autre message", root_path, class: "button" %>
+    </div>
   </div>
 
 </div>
+
+
+

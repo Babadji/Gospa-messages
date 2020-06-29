@@ -1,34 +1,15 @@
 @import "home";
 
-@media screen {
-  body {
-    flex: 0 0 58.3%;
-    max-width: 58.3%;
-    max-height: 52.35rem;
-    background-color: white;
-  }
-}
-
-.image-bg {
-  background-color:white;
-  background-image:url(https://res.cloudinary.com/dnzggrpqe/image/upload/v1593267468/zlykxtxlgwrz0nkelrwq_gaikas.webp);
-  padding-right: 0px;
-  height: 100vh;
-}
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 0px;
-  margin-left: 0px;
+  width: 1900px;
 }
 
-.content-div1 {
-  padding-top: 60px !important;
-  padding-left: 40px !important;
-  padding-right: 40px !important;
-
+.container img {
+  width: 400px;
+  height: 400px;
 }
+
 
 .button {
   text-decoration: none;
@@ -51,36 +32,16 @@
   font-weight: bolder;
 }
 
-.content-div1 h1 {
+.container h1 {
   padding-bottom: 20px;
   font-family: 'Prompt', sans-serif;
   color: #22A1EE;
 }
 
-.content-div1 p {
-  padding-bottom: 20px;
+.container p {
+  padding-bottom: 30px;
   font-family: 'Roboto', sans-serif;
   color: #194797;
-}
-
-.cat2 {
-  width: 1800px;
-}
-
-.home-img {
-  background-size: cover;
-  background-position: right;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  width: 5000px;
 }
 
 
