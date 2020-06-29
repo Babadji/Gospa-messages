@@ -1,0 +1,25 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <div class="card bg-light">
+        <h1>Qu'est-ce que la Gospa veut me dire aujourd'hui?</h1>
+
+        <a><% messages.each do |message| %>
+        <%= message.sample.first %>
+        <% end %>Lancer la recherche</a>
+      </div>
+    </div>
+
+    <div class="col-12 col-lg-6 image-bg">
+      <div class="card bg-light">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
