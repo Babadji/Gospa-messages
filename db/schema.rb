@@ -24,12 +24,5 @@ ActiveRecord::Schema.define(version: 2020_07_01_102232) do
     t.integer "rating"
   end
 
-  create_table "users", force: :cascade do |t|
-    t.string "name"
-    t.string "email"
-    t.integer "password"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
 
 end
