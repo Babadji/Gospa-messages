@@ -7,6 +7,11 @@ class MessagesController < ApplicationController
     @message = Message.find(params[:id])
   end
 
+  def random
+    @message = Message.all.sample
+    redirect_to message_path(@message)
+  end
+
   private
 
   def message_params
