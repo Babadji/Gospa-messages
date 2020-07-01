@@ -5,8 +5,29 @@
 
   <div class="row justify-content-center text-center container-row">
     <h1 class="animate__animated animate__zoomIn">Qu'est-ce que la Gospa veut me dire aujourd'hui? </h1>
-    <p><%=  @message.description %></p>
-    <%= link_to "Découvrir un autre message", root_path, class: "button" %>
+  </div>
+
+  <div class="justify-content-center text-center">
+    <form>
+      <label>Prénom</label>
+      <input type="name">
+      <label>Email</label>
+      <input type="email">
+      <label>Mot de passe</label>
+      <input type="password">
+      <br>
+      <br>
+      <input type="submit" name="Submit" class="button">
+    </form>
+  </div>
+
+
+
+  <br>
+  <br>
+
+  <div class="row justify-content-center container-row">
+    <%= link_to "Lancer la recherche", random_path, class: "button" %>
   </div>
 
 </div>
